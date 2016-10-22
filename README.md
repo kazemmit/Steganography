@@ -35,7 +35,7 @@ How to compile:
 
 3. If you want to run it in terminal, open the system terminal and run following command:
 
-**java CreateStego MethodName FileNamePath MessegeLength**
+**java CreateStego MethodName FileNamePath MessageLength**
 
 
 **MethodName**: it should be one of following options:
