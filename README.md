@@ -14,7 +14,8 @@ so, researchers in the field of data hiding [either steganography or steganalysi
 *    		therefore, you can use the stego images created by these methods and analyze them. 
 
 *****************How to use this project*********************
-Very easy: you just need to download CreateStego.class, then follow the Usage Insruction to use it [see below]. 
+
+Very easy: you just need to download CreateStego.class, then follow the Usage Instruction to use it [see below]. 
 
 If there is any problem with this binary file [CreateStego.class] or you want to edit the source code, you might need to compile the source code again easily by javac [java compiler - Note: you should have jdk installed on your computer before]:
 How to compile:
@@ -22,9 +23,10 @@ How to compile:
 2) make sure to have javac set in the system variable
 3) open command prompt and run following command
 4) javac CreateStego.java   
-5) There you go, follow the Usage Insruction
+5) There you go, follow the Usage Instruction
 
-*********************Usage Insruction************************
+*********************Usage Instruction************************
+
 1) install jdk or jre on your computer [jdk has jre inside, if you installed jdk before, you do not need to install jre]
 2) make sure to have java set in the system variable
 3) If you want to run it in terminal, open the system terminal and run following command:
@@ -59,4 +61,5 @@ Copy right:
 Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.
 
 Ghazanfari, Kazem, Shahrokh Ghaemmaghami, and Saeed R. Khosravi. LSB++: an improvement to LSB+ steganography. TENCON 2011-2011 IEEE Region 10 Conference. IEEE, 2011.
+
 
