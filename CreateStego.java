@@ -1,7 +1,7 @@
 /*
  * This project was created by Kazem Qazanfari as a part of his research in the field of computer science [Steganography]
  * You are free to use or edit this code for your research.
- * If you use the code, please kindly cite the following papers:
+ * If you use this project, or some parts of code please kindly cite the following papers:
  * 
  * Qazanfari, Kazem, and Reza Safabakhsh. "A new steganography method which preserves histogram: Generalization of LSB++." 
  * Information Sciences 277 (2014): 90-101.
@@ -28,7 +28,7 @@ public class CreateStego {
 	/*
 	 * * ****NOTE****
 	 * 
-	 * The purpose of implementing these methods is to provide the embedding behavior of some baseline steganography methods.
+	 * The purpose of implementing this project is to provide the embedding behavior of some baseline steganography methods including: LSB, LSB+ [LSBP], LSB++ [LSBPP], LSB Matching [LSBM], LSB Matching Revisited [LSBMR].
 	 * Actually, we are going to provide/simulate the embedding process of some steganography methods, which creates the exact statistical artifacts that are created by these steganography methods.  
 	 * so researchers in the field of data hiding [steganography/steganalysis] will be able to compare their methods [steganography/steganalysis] to these baseline methods.
 	 *  
@@ -1323,7 +1323,7 @@ public class CreateStego {
 	private static void print_copyRight_message()
 	{
 		System.out.println("\033[31;1m");
-		System.out.println("Copy right: \n This project was created by Kazem Qazanfari as a part of his research in the field of computer science [Steganography].You are free to use or edit this code for your research. If you use this project or some parts of it, please kindly cite the following papers:\n");
+		System.out.println("Copy right: \n This project was created by Kazem Qazanfari as a part of his research in the field of computer science [Steganography].You are free to use or edit this project for your research. If you use this project or some parts of this code, please kindly cite the following papers:\n");
 		System.out.println("*  Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.");
 		System.out.println("*  Ghazanfari, Kazem, Shahrokh Ghaemmaghami, and Saeed R. Khosravi. LSB++: an improvement to LSB+ steganography. TENCON 2011-2011 IEEE Region 10 Conference. IEEE, 2011.\n");
 		System.out.println("\033[31;1m\033[0m");
@@ -1333,7 +1333,7 @@ public class CreateStego {
 		System.out.println("The number or the type of arguments is not correct. Please read following instruction:");
 		System.out.println("****NOTE****");
 		System.out.println("*");
-		System.out.println("* The purpose of implementing these methods is to provide the embedding behavior of some baseline steganography methods: LSB, LSB Matching [LSBM], LSB Matching Revisited [LSBMR], LSB+ [LSBP] and LSB++ [LSBPP].\n");
+		System.out.println("* The purpose of implementing this project is to provide the embedding behavior of some baseline steganography methods: LSB, LSB+ [LSBP], LSB++ [LSBPP], LSB Matching [LSBM] and LSB Matching Revisited [LSBMR].\n");
 		System.out.println("* Actually, we are going to provide/simulate the embedding process of some steganography methods, which creates the exact statistical artifacts that are created by these steganography methods.\n");  
 		System.out.println("* so researchers in the field of data hiding [steganography/steganalysis] will be able to compare their methods [steganography/steganalysis] to these base-line methods.\n");
 		System.out.println("*");  
@@ -1356,7 +1356,7 @@ public class CreateStego {
 		System.out.println("FileNamePath: it should be the path and file name of the cover bitmap image.");
 		System.out.println("   *If your file is in the current directory, you do not need to specify the path, just provide the file name.\n");
 		System.out.println("   *If your file is not in the current directory, you need to specify the complete file path and name.\n");
-		System.out.println("MessageLength: it should be an integer number which determines the message length in bit.");
+		System.out.println("MessageLength: it should be an integer number which determines the message length in bit.\n");
 		
 		System.out.println("Examples:");
 		System.out.println("java CreateStego LSB test.bmp 1000");
