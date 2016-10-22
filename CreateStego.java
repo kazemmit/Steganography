@@ -1323,7 +1323,7 @@ public class CreateStego {
 	private static void print_copyRight_message()
 	{
 		System.out.println("\033[31;1m");
-		System.out.println("Copy right: \n This project was created by Kazem Qazanfari as a part of his research in the field of data hiding.You are free to use or edit this project for your research. If you use this project or some parts of this code, please kindly cite the following papers:\n");
+		System.out.println("Copyright: \n This project was created by Kazem Qazanfari as a part of his research in the field of data hiding.You are free to use or edit this project for your research. If you use this project or some parts of this code, please kindly cite the following papers:\n");
 		System.out.println("*  Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.");
 		System.out.println("*  Ghazanfari, Kazem, Shahrokh Ghaemmaghami, and Saeed R. Khosravi. LSB++: an improvement to LSB+ steganography. TENCON 2011-2011 IEEE Region 10 Conference. IEEE, 2011.\n");
 		System.out.println("\033[31;1m\033[0m");

@@ -77,7 +77,7 @@ How to compile:
 However, If you want to call CreateStego in your project, just google it to find how you can call a java class [or jar file] in your project [any language].
 
 
-***Copy right:***
+***Copyright:***
 
  This project was created by Kazem Qazanfari as a part of his research in the field of computer science [Steganography].You are free to use or edit this code for your research. If you use this project or some parts of code, please kindly cite the following papers:
 
