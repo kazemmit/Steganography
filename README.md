@@ -17,9 +17,13 @@ Very easy: you just need to download CreateStego.class, then follow the Usage In
 If there is any problem with this binary file [CreateStego.class] or you want to edit the source code, you might need to compile the source code again easily by javac [java compiler - Note: you should have jdk installed on your computer before]:
 How to compile:
 1. install jdk on your computer
+
 2. make sure to have javac set in the system variable
+
 3. open command prompt and run following command
+
 4. javac CreateStego.java   
+
 5. There you go, follow the Usage Instruction
 
 *********************Usage Instruction************************
