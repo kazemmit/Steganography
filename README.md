@@ -38,24 +38,36 @@ How to compile:
 java CreateStego MethodName FileNamePath MessegeLength
 
 MethodName: it should be one of following options:
-   *LSB: for simple LSB steganography method.
-   *LSBP: for LSB+ steganography method.
-   *LSBPP: for LSB++ steganography method.
-   *LSBM: for LSB matching steganography method.
-   *LSBMR: for LSB matching revisited steganography method.
+
+* *LSB: for simple LSB steganography method.
+
+* *LSBP: for LSB+ steganography method.
+
+* *LSBPP: for LSB++ steganography method.
+
+* *LSBM: for LSB matching steganography method.
+
+* *LSBMR: for LSB matching revisited steganography method.
 
 FileNamePath: it should be the path and file name of the cover bitmap image.
+
    *If your file is in the current directory, you do not need to specify the path, just provide the file name.
 
    *If your file is not in the current directory, you need to specify the complete file path and name.
 
 MessageLength: it should be an integer number which determines the message length in bit.
 Examples:
-java CreateStego LSB test.bmp 1000
-java CreateStego LSBP /User/kazemmit/Document/test.bmp 2000
-java CreateStego LSBPP /User/kazemmit/Document/test.bmp 1500
-java CreateStego LSBM /User/kazemmit/Document/test.bmp 2000
-java CreateStego LSBMR test.bmp 1000
+
+* java CreateStego LSB test.bmp 1000
+
+* java CreateStego LSBP /User/kazemmit/Document/test.bmp 2000
+
+* java CreateStego LSBPP /User/kazemmit/Document/test.bmp 1500
+
+* java CreateStego LSBM /User/kazemmit/Document/test.bmp 2000
+
+* java CreateStego LSBMR test.bmp 1000
+
 
 4) If you want to call CreateStego in your project, just google it to find how you can call a java class [or jar file] in your project [any language].
 
