@@ -37,23 +37,26 @@ How to compile:
 
 java CreateStego MethodName FileNamePath MessegeLength
 
+
 MethodName: it should be one of following options:
 
-* *LSB: for simple LSB steganography method.
+* LSB: for simple LSB steganography method.
 
-* *LSBP: for LSB+ steganography method.
+* LSBP: for LSB+ steganography method.
 
-* *LSBPP: for LSB++ steganography method.
+* LSBPP: for LSB++ steganography method.
 
-* *LSBM: for LSB matching steganography method.
+* LSBM: for LSB matching steganography method.
 
-* *LSBMR: for LSB matching revisited steganography method.
+* LSBMR: for LSB matching revisited steganography method.
+
 
 FileNamePath: it should be the path and file name of the cover bitmap image.
 
    *If your file is in the current directory, you do not need to specify the path, just provide the file name.
 
    *If your file is not in the current directory, you need to specify the complete file path and name.
+
 
 MessageLength: it should be an integer number which determines the message length in bit.
 Examples:
@@ -69,9 +72,12 @@ Examples:
 * java CreateStego LSBMR test.bmp 1000
 
 
-4) If you want to call CreateStego in your project, just google it to find how you can call a java class [or jar file] in your project [any language].
 
-Copy right: 
+4. If you want to call CreateStego in your project, just google it to find how you can call a java class [or jar file] in your project [any language].
+
+
+**Copy right**:
+
  This project was created by Kazem Qazanfari as a part of his research in the field of computer science [Steganography].You are free to use or edit this code for your research. If you use this project or some parts of it, please kindly cite the following papers:
 
 Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.
