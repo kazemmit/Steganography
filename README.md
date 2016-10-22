@@ -79,7 +79,7 @@ However, If you want to call CreateStego in your project, just google it to find
 
 ***Copyright:***
 
- This project was created by Kazem Qazanfari as a part of his research in the field of computer science [Steganography].You are free to use or edit this code for your research. If you use this project or some parts of code, please kindly cite the following papers:
+ This project was created by Kazem Qazanfari as a part of his research in the field of Steganography.You are free to use or edit this code for your research. If you use this project or some parts of code, please kindly cite the following papers:
 
 Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.
 
