@@ -1,5 +1,5 @@
 /*
- * This project was created by Kazem Qazanfari as a part of his research in the field of data hiding.
+ * This project was created by Kazem Qazanfari as a part of his research in the field of data hiding [hiding data in images].
  * You are free to use or edit this code for your research.
  * If you use this project, or some parts of code please kindly cite the following papers:
  * 
@@ -29,7 +29,7 @@ public class CreateStego {
 	 * * ****NOTE****
 	 * 
 	 * The purpose of implementing this project is to provide the embedding behavior of some baseline steganography methods including: LSB, LSB+ [LSBP], LSB++ [LSBPP], LSB Matching [LSBM], LSB Matching Revisited [LSBMR].
-	 * Actually, we are going to provide/simulate the embedding process of some steganography methods, which creates the exact statistical artifacts that are created by these steganography methods.  
+	 * Actually, we are going to provide/simulate the embedding process of some steganography methods in bitmap images, which creates the exact statistical artifacts that are created by these steganography methods.  
 	 * so researchers in the field of data hiding [steganography/steganalysis] will be able to compare their methods [steganography/steganalysis] to these baseline methods.
 	 *  
 	 * So,1) we use a pseudo random generator (using java random library) as the encrypted message that should be embedded. 
@@ -1346,7 +1346,7 @@ public class CreateStego {
 		System.out.println("***************************\n\n");
 		
 		System.out.println("**********How to use it (.class file)**********");
-		System.out.println("java CreateStego MethodName FileNamePath MessegeLength\n");
+		System.out.println("java CreateStego MethodName FileNamePath MessageLength\n");
 		System.out.println("MethodName: it should be one of following options:");
 		System.out.println("   *LSB: for simple LSB steganography method.");
 		System.out.println("   *LSBP: for LSB+ steganography method.");

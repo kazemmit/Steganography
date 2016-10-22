@@ -1,7 +1,7 @@
 
 This project was created by Kazem Qazanfari as a part of his research in the field of data hiding. The purpose of implementing this project is to provide the embedding behavior of some baseline steganography methods including: LSB, LSB+ [LSBP], LSB++ [LSBPP], LSB Matching [LSBM], LSB Matching Revisited [LSBMR].
 
-Actually, this project provides/simulates the embedding process of above steganography methods, which creates the exact statistical artifacts that are created by these steganography methods.
+Actually, this project provides/simulates the embedding process of above steganography methods in bitmap images, which creates the exact statistical artifacts that are created by these steganography methods.
 
 so, researchers in the field of data hiding [either steganography or steganalysis] will be able to compare their methods [steganography/steganalysis] to these base-line methods.
 
