@@ -16,6 +16,7 @@ Very easy: you just need to download CreateStego.class, then follow the Usage In
 
 If there is any problem with this binary file [CreateStego.class] or you want to edit the source code, you might need to compile the source code again easily by javac [java compiler - Note: you should have jdk installed on your computer before]:
 How to compile:
+
 1. install jdk on your computer
 
 2. make sure to have javac set in the system variable
@@ -28,9 +29,11 @@ How to compile:
 
 *********************Usage Instruction************************
 
-1) install jdk or jre on your computer [jdk has jre inside, if you installed jdk before, you do not need to install jre]
-2) make sure to have java set in the system variable
-3) If you want to run it in terminal, open the system terminal and run following command:
+1. install jdk or jre on your computer [jdk has jre inside, if you installed jdk before, you do not need to install jre]
+
+2. make sure to have java set in the system variable
+
+3. If you want to run it in terminal, open the system terminal and run following command:
 
 java CreateStego MethodName FileNamePath MessegeLength
 
