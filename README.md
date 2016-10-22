@@ -6,12 +6,9 @@ Actually, this project provides/simulates the embedding process of above stegano
 so, researchers in the field of data hiding [either steganography or steganalysis] will be able to compare their methods [steganography/steganalysis] to these base-line methods.
 
 
-* So,1) we use a pseudo random message (using java random library) as the encrypted message that should be embedded.
-* 			therefore, you do not need to provide the message.
-*    2) by using a random process, we simulate the embedding key
-*    		therefore, you do not need to provide the embedding key.
-*    3) we just provide the embedding process
-*    		therefore, you can use the stego images created by these methods and analyze them. 
+* So,1) we use a pseudo random message (using java random library) as the encrypted message that should be embedded; therefore, you do not need to provide the message.
+*    2) by using a random process, we simulate the embedding key; therefore, you do not need to provide the embedding key.
+*    3) we just provide the embedding process; therefore, you can use the stego images created by these methods and analyze them. 
 
 *****************How to use this project*********************
 
@@ -19,11 +16,11 @@ Very easy: you just need to download CreateStego.class, then follow the Usage In
 
 If there is any problem with this binary file [CreateStego.class] or you want to edit the source code, you might need to compile the source code again easily by javac [java compiler - Note: you should have jdk installed on your computer before]:
 How to compile:
-1) install jdk on your computer
-2) make sure to have javac set in the system variable
-3) open command prompt and run following command
-4) javac CreateStego.java   
-5) There you go, follow the Usage Instruction
+1. install jdk on your computer
+2. make sure to have javac set in the system variable
+3. open command prompt and run following command
+4. javac CreateStego.java   
+5. There you go, follow the Usage Instruction
 
 *********************Usage Instruction************************
 
