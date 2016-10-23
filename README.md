@@ -78,11 +78,14 @@ However, If you want to call CreateStego in your project, just google it to find
 
 
 ***Copyright:***
+This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the License, or     (at your option) any later version.      This program is distributed in the hope that it will be useful,     but WITHOUT ANY WARRANTY; without even the implied warranty of     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     GNU General Public License for more details.
 
- This project was created by Kazem Qazanfari as a part of his research in the field of Steganography.You are free to use or edit this code for your research. If you use this project or some parts of code, please kindly cite the following papers:
+However, If you use this project or some parts of the code, please kindly cite the following papers:
 
-Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.
+***Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.***
 
-Ghazanfari, Kazem, Shahrokh Ghaemmaghami, and Saeed R. Khosravi. LSB++: an improvement to LSB+ steganography. TENCON 2011-2011 IEEE Region 10 Conference. IEEE, 2011.
+***Ghazanfari, Kazem, Shahrokh Ghaemmaghami, and Saeed R. Khosravi. LSB++: an improvement to LSB+ steganography. TENCON 2011-2011 IEEE Region 10 Conference. IEEE, 2011.***
+
+
 
 
