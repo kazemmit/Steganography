@@ -77,14 +77,19 @@ How to compile:
 However, If you want to call CreateStego in your project, just google it to find how you can call a java class [or jar file] in your project [any language].
 
 
+***Citation:***
+
+If you use this project or some parts of the code, please kindly cite the following papers:
+
+Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.
+
+Ghazanfari, Kazem, Shahrokh Ghaemmaghami, and Saeed R. Khosravi. LSB++: an improvement to LSB+ steganography. TENCON 2011-2011 IEEE Region 10 Conference. IEEE, 2011.
+
 ***Copyright:***
+
 This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the License, or     (at your option) any later version.      This program is distributed in the hope that it will be useful,     but WITHOUT ANY WARRANTY; without even the implied warranty of     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     GNU General Public License for more details.
 
-However, If you use this project or some parts of the code, please kindly cite the following papers:
 
-***Qazanfari, Kazem, and Reza Safabakhsh. A new steganography method which preserves histogram: Generalization of LSB++. Information Sciences 277 (2014): 90-101.***
-
-***Ghazanfari, Kazem, Shahrokh Ghaemmaghami, and Saeed R. Khosravi. LSB++: an improvement to LSB+ steganography. TENCON 2011-2011 IEEE Region 10 Conference. IEEE, 2011.***
 
 
 
