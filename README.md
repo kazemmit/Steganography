@@ -60,7 +60,8 @@ How to compile:
 
 **MessageLength**: it should be an integer number which determines the message length in bit.
 
-**output**: this project creates the stego version of the input image in the same path of the input image, but with different names for different used methods like below:
+***output***: 
+This project creates the stego version of the input image in the same path of the input image, but with different names for different used methods like below:
 
 * LSB: imageName.LSB.bmp
 
