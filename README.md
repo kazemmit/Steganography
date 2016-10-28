@@ -60,6 +60,19 @@ How to compile:
 
 **MessageLength**: it should be an integer number which determines the message length in bit.
 
+**output**: this project creates the stego version of the input image in the same path of the input image, but with different names for different used methods like below:
+
+* LSB: imageName.LSB.bmp
+
+* LSBP: imageName.LSBP.bmp
+
+* LSBPP: imageName.LSBPP.bmp
+
+* LSBM: imageName.LSBM.bmp
+
+* LSBMR: imageName.LSBMR.bmp
+
+
 ***Examples: ***
 
 * java CreateStego LSB test.bmp 1000
